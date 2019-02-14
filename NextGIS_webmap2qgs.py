@@ -8,7 +8,7 @@ import argparse
 from requests.auth import HTTPBasicAuth
 import xml.etree.ElementTree as ET
 
-#python NextGIS_xml.py --url elina-usmanova --login administrator --password 123456 --webmap_id 752
+#python NextGIS_xml.py --url elina-usmanova --login ***** --password ***** --webmap_id 752
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--url',type=str,required=True)
