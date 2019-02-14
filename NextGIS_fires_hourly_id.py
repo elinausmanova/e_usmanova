@@ -17,8 +17,8 @@ from functools import partial
 from shapely.ops import transform
 from requests_futures.sessions import FuturesSession
 
-#python NextGIS_fires_hourly_id.py --name MODIS --latmin 40 --lonmin 40 --latmax 60 --lonmax 60 --url elina-usmanova --login administrator --password 123456 --parentid 617 --styleid 624
-#python NextGIS_fires_hourly_id.py --name VIIRS --latmin 40 --lonmin 40 --latmax 60 --lonmax 60 --url elina-usmanova --login administrator --password 123456 --parentid 617 --styleid 624
+#python NextGIS_fires_hourly_id.py --name MODIS --latmin 40 --lonmin 40 --latmax 60 --lonmax 60 --url elina-usmanova --login ***** --password ***** --parentid 617 --styleid 624
+#python NextGIS_fires_hourly_id.py --name VIIRS --latmin 40 --lonmin 40 --latmax 60 --lonmax 60 --url elina-usmanova --login ***** --password ***** --parentid 617 --styleid 624
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--name',type=str,required=True)
