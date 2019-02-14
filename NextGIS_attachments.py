@@ -10,7 +10,7 @@ import shutil
 import argparse
 from requests.auth import HTTPBasicAuth
 
-#python NextGIS_attachments.py --url elina-usmanova --login administrator --password 123456 --parent_id 760 --path_name_zip D:/NextGIS/Attachments/zip1
+#python NextGIS_attachments.py --url elina-usmanova --login ***** --password ***** --parent_id 760 --path_name_zip D:/NextGIS/Attachments/zip1
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--url',type=str,required=True)
