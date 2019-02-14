@@ -20,7 +20,7 @@ from functools import partial
 from shapely.ops import transform
 from requests_futures.sessions import FuturesSession
 
-#python NextGIS_fires_hourly.py --name MODIS --ymin 46 --xmin 46 --ymax 50 --xmax 50 --url elina-usmanova.nextgis.com --login administrator --password 123456 --parentid 175
+#python NextGIS_fires_hourly.py --name MODIS --ymin 46 --xmin 46 --ymax 50 --xmax 50 --url elina-usmanova.nextgis.com --login ***** --password ***** --parentid 175
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--name',type=str,required=True)
