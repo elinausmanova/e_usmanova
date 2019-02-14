@@ -14,7 +14,7 @@ from functools import partial
 from shapely.ops import transform
 from requests_futures.sessions import FuturesSession
 
-#python NextGIS_Create_source_data.py --url elina-usmanova --login administrator --password 123456 --parentid 0 --display_name Fires1 --latmin 40 --lonmin 40 --latmax 50 --lonmax 50
+#python NextGIS_Create_source_data.py --url elina-usmanova --login ****** --password ***** --parentid 0 --display_name Fires1 --latmin 40 --lonmin 40 --latmax 50 --lonmax 50
 
 
 parser = argparse.ArgumentParser()
